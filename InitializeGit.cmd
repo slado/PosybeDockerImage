@@ -17,3 +17,6 @@ REM Pushes the changes in your local repository up to the remote repository you 
 git push origin master
 
 REM na naklonovanie pouzit git clone <repo>
+
+REM setup tracking
+git branch --set-upstream-to=origin/master master
